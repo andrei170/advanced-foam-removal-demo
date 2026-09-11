@@ -1,0 +1,470 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Advanced Foam Removal - Spray Foam Removal for Mortgage & Survey Problems - London</title>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#14181c; --mut:#57616c; --line:#e2e6ec; --bg:#f8fafb; --panel:#fff;
+  --deep:#12283f; --deep2:#1d3b58; --acc:#2f6fbf; --acc2:#7fb4e3; --ok:#1f7a45;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:Bitter,Georgia,serif;font-weight:700;line-height:1.16;letter-spacing:-.014em;text-wrap:balance}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+.demobar{background:#0d1117;color:#e6edf3;font-size:12.5px;text-align:center;padding:8px 14px}
+.demobar b{color:#f0b13c}
+.urg{background:#8a1c1c;color:#fff;text-align:center;font-size:13.5px;padding:9px;font-weight:500}
+.urg a{color:#fff}
+nav{position:sticky;top:0;z-index:60;background:rgba(248,250,251,.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.navin{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:13px 0}
+.logo{font-family:Bitter,serif;font-weight:700;font-size:19px}
+.logo span{color:var(--acc)}
+.navl{display:flex;gap:20px;font-size:14.5px;font-weight:500}
+.navl a{color:var(--mut);text-decoration:none}.navl a:hover{color:var(--deep2)}
+.navl a.on{color:var(--deep2);font-weight:700}
+.call{display:inline-flex;align-items:center;gap:8px;background:var(--deep2);color:#fff;text-decoration:none;font-weight:600;font-size:14.5px;padding:10px 17px;border-radius:8px;white-space:nowrap}
+@media(max-width:900px){.navl{display:none}}
+.hero{position:relative;background:linear-gradient(155deg,var(--deep),var(--deep2));color:#eef3f8;overflow:hidden}
+.hero::after{content:"";position:absolute;inset:0;opacity:.13;
+  background:repeating-linear-gradient(78deg,transparent 0 38px,rgba(255,255,255,.55) 38px 40px),
+             repeating-linear-gradient(-12deg,transparent 0 38px,rgba(255,255,255,.3) 38px 39px)}
+.heroin{position:relative;z-index:2;display:grid;grid-template-columns:1.06fr .94fr;gap:42px;align-items:center;padding:56px 0 62px}
+@media(max-width:980px){.heroin{grid-template-columns:1fr;gap:28px;padding:38px 0 44px}}
+.eyeb{display:inline-block;font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--acc2);border:1px solid rgba(255,255,255,.28);padding:5px 12px;border-radius:999px;margin-bottom:17px}
+.hero h1{font-size:clamp(31px,5vw,48px);margin-bottom:14px}
+.hero h1 em{font-style:normal;color:var(--acc2)}
+.hero .lede{font-size:17px;color:#c6d3df;max-width:520px}
+.ticks{list-style:none;margin-top:20px;display:grid;gap:9px}
+.ticks li{display:flex;gap:10px;font-size:15.5px;color:#dde6ee}
+.ticks svg{flex:0 0 18px;margin-top:4px;fill:var(--acc2)}
+.form{background:var(--panel);border-radius:14px;padding:24px;box-shadow:0 20px 54px rgba(0,0,0,.3);color:var(--ink)}
+.form h3{font-size:20px;margin-bottom:4px}
+.form .fs{font-size:13.5px;color:var(--mut);margin-bottom:14px}
+label{display:block;font-size:12px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--mut);margin:12px 0 5px}
+select,input{width:100%;font-family:inherit;font-size:15px;color:var(--ink);background:#fbfcfd;border:1px solid var(--line);border-radius:8px;padding:11px 12px}
+select:focus,input:focus{outline:2px solid var(--acc);outline-offset:1px;border-color:transparent}
+.chk{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.chk label{display:inline-flex;align-items:center;gap:7px;margin:0;padding:8px 12px;border:1px solid var(--line);border-radius:999px;background:#fbfcfd;font-size:13.5px;font-weight:500;letter-spacing:0;text-transform:none;color:var(--ink);cursor:pointer}
+.chk input{width:auto;padding:0;margin:0}
+.btn{width:100%;margin-top:18px;background:var(--acc);color:#fff;border:0;border-radius:9px;padding:14px;font-family:Bitter,serif;font-size:16px;font-weight:700;cursor:pointer}
+.btn:hover{filter:brightness(.88)}
+.hint{font-size:12px;color:var(--mut);margin-top:10px;text-align:center}
+.out{display:none;margin-top:15px;border-radius:10px;padding:15px 16px;font-size:14.5px;border:1px solid}
+.out.show{display:block}
+.out b{display:block;font-family:Bitter,serif;font-size:16.5px;margin-bottom:5px}
+.o-hi{background:#eef6f0;border-color:#bedcc6;color:#1d5734}
+.o-md{background:#fdf6ea;border-color:#ecdcb2;color:#775413}
+.o-lo{background:#f3f5f7;border-color:#dde2e7;color:#48515a}
+.o-urg{background:#fdeeee;border-color:#f0c6c4;color:#8a1c1c}
+.trust{background:#0e141a;color:#b6c2cd;padding:15px 0}
+.trustin{display:flex;flex-wrap:wrap;justify-content:center;gap:11px 34px;font-size:13.5px}
+.trustin b{color:var(--acc2);font-weight:700}
+section{padding:58px 0}
+.sh{text-align:center;max-width:680px;margin:0 auto 34px}
+.sh .kick{font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--acc);font-weight:700;margin-bottom:10px}
+.sh h2{font-size:clamp(25px,3.4vw,33px);margin-bottom:11px}
+.sh p{color:var(--mut);font-size:16.5px}
+.band{background:var(--panel);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:17px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:13px;overflow:hidden}
+.ctop{height:100px;position:relative;background:linear-gradient(140deg,var(--deep),var(--deep2))}
+.ctop::after{content:"";position:absolute;inset:0;opacity:.24;background:repeating-linear-gradient(78deg,transparent 0 15px,rgba(255,255,255,.5) 15px 16px)}
+.cbody{padding:17px}.cbody h3{font-size:18px;margin-bottom:6px}
+.cbody p{font-size:14.5px;color:var(--mut)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media(max-width:820px){.two{grid-template-columns:1fr}}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:24px}
+.box.pri{background:linear-gradient(160deg,var(--deep),var(--deep2));color:#eef3f8;border-color:var(--deep2)}
+.box h3{font-size:20px;margin-bottom:10px}
+.box ul{margin:0 0 0 19px;font-size:15px;color:var(--mut)}
+.box.pri ul{color:#c6d3df}
+.box li{margin-bottom:8px}
+.tagp{display:inline-block;font-size:11px;letter-spacing:.11em;text-transform:uppercase;font-weight:700;background:var(--acc2);color:#0e1a26;padding:4px 10px;border-radius:999px;margin-bottom:12px}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(205px,1fr));gap:16px}
+.fact{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px}
+.fact .k{font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--mut);font-weight:700;margin-bottom:7px}
+.fact .v{font-family:Bitter,serif;font-size:22px;font-weight:700;color:var(--deep2)}
+.fact .n{font-size:13.5px;color:var(--mut);margin-top:5px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:22px;counter-reset:s}
+.step{counter-increment:s;position:relative;padding-left:50px}
+.step::before{content:counter(s);position:absolute;left:0;top:0;width:37px;height:37px;border-radius:50%;background:var(--deep2);color:#fff;font-family:Bitter,serif;font-weight:700;font-size:17px;display:grid;place-items:center}
+.step h3{font-size:17.5px;margin-bottom:5px}.step p{font-size:14.5px;color:var(--mut)}
+.revs{display:grid;grid-template-columns:repeat(auto-fit,minmax(268px,1fr));gap:17px}
+.rev{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:20px}
+.stars{color:#e0a32e;font-size:15.5px;letter-spacing:2px}
+.rev p{font-size:14.8px;color:var(--mut);margin:9px 0 12px;font-style:italic}
+.rev .who{font-size:13.5px;font-weight:700}
+.rev .who span{display:block;font-weight:400;color:var(--mut);font-size:12.5px;margin-top:2px}
+.ratebar{display:flex;align-items:center;justify-content:center;gap:14px;margin-bottom:28px;flex-wrap:wrap}
+.ratebig{font-family:Bitter,serif;font-size:42px;font-weight:700;color:var(--deep2)}
+.ratetxt{font-size:14.5px;color:var(--mut);text-align:left}
+.badges{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+.bdg{background:var(--panel);border:1px dashed #b9c3d1;border-radius:11px;padding:14px 20px;text-align:center;min-width:140px}
+.bdg b{display:block;font-family:Bitter,serif;font-size:16px;color:var(--deep2)}
+.bdg span{font-size:11.5px;color:var(--mut);letter-spacing:.05em;text-transform:uppercase}
+.areas{display:flex;flex-wrap:wrap;gap:9px;justify-content:center;margin-top:20px}
+.areas span{background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:8px 15px;font-size:14px;color:var(--mut)}
+.cta2{background:linear-gradient(155deg,var(--deep),var(--deep2));color:#eef3f8;text-align:center;padding:58px 0}
+.cta2 h2{font-size:clamp(25px,3.4vw,33px);margin-bottom:11px}
+.cta2 p{color:#c6d3df;font-size:16.5px;max-width:560px;margin:0 auto 22px}
+.cta2 .call{font-size:16px;padding:14px 26px;background:var(--acc2);color:#0e1a26}
+footer{background:#0b1016;color:#87929d;font-size:13.5px;padding:32px 0}
+.fgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:24px}
+footer h4{color:#e7edf3;font-size:12.5px;letter-spacing:.11em;text-transform:uppercase;margin-bottom:10px}
+footer a{color:#87929d;text-decoration:none;display:block;margin-bottom:6px}
+footer a:hover{color:var(--acc2)}
+.fnote{border-top:1px solid #1b232c;padding-top:18px;margin-top:20px;font-size:12.5px;color:#6b7681;line-height:1.65}
+a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+</style>
+<style>
+.hero{background:linear-gradient(150deg,rgba(12,20,32,.94),rgba(22,44,72,.80)),url('img/hero.jpg') center 50%/cover}
+.hero::after{opacity:.05}
+.ctop{background-size:cover;background-position:center;height:190px}
+@media(max-width:700px){.ctop{height:160px}}
+.ctop::after{opacity:.1}
+.gal{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:13px}
+.gal div{aspect-ratio:7/5;border-radius:12px;background-size:cover;background-position:center;border:1px solid var(--line)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center}
+@media(max-width:820px){.split{grid-template-columns:1fr;gap:22px}}
+.split .pic{aspect-ratio:7/5;border-radius:14px;background-size:cover;background-position:center}
+.cta2{background:linear-gradient(150deg,rgba(12,20,32,.94),rgba(22,44,72,.86)),url('img/removal.jpg') center 50%/cover}
+.nicei{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.25);border-radius:8px;padding:7px 13px;font-size:13.5px;font-weight:600;margin-top:16px}
+.faqs{max-width:820px;margin:0 auto}
+.faq{background:var(--panel);border:1px solid var(--line);border-radius:12px;margin-bottom:10px;overflow:hidden}
+.faq summary{cursor:pointer;list-style:none;padding:16px 18px;font-weight:600;font-size:16px;display:flex;justify-content:space-between;gap:14px;align-items:center}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-size:22px;color:var(--acc);font-weight:400;line-height:1}
+.faq[open] summary::after{content:"\2212"}
+.faq p{padding:0 18px 16px;color:var(--mut);font-size:15px;margin:0}
+.callbar{display:none}
+@media(max-width:820px){
+ .callbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:90;background:var(--deep2);color:#fff;align-items:center;justify-content:center;gap:10px;padding:13px;font-weight:700;font-size:16px;text-decoration:none;box-shadow:0 -4px 18px rgba(0,0,0,.28)}
+ body{padding-bottom:56px}
+}
+</style>
+
+<div class="demobar">This is a <b>concept website</b> built by AG1 Consulting for Advanced Foam Removal Ltd. It is not a live site and no form on it sends anywhere.</div>
+
+<nav>
+  <div class="wrap navin">
+    <div class="logo">Advanced <span>Foam Removal</span></div>
+    <div class="navl">
+      <a href="#mortgage" class="on">Mortgage Refused?</a>
+      <a href="#process">The Process</a>
+      <a href="#reinstate">Reinsulation</a>
+      <a href="#work">Our Work</a>
+      <a href="#areas">Areas</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <a class="call" href="tel:+447852547067">&#9742; 07852 547067</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap heroin">
+    <div>
+      <div class="eyeb">London &amp; the South East &middot; Full Certification Issued</div>
+      <h1>Your lender said no because of the foam. <em>We are how that becomes a yes.</em></h1>
+      <p class="lede">Specialist spray foam insulation removal for mortgage, remortgage, equity release
+      and survey problems. Removed properly, timbers cleaned, loft reinsulated, and the documentation
+      your lender needs issued at the end.</p>
+      <ul class="ticks">
+        <li><svg viewBox="0 0 20 20" width="18" height="18"><path d="M7.6 14.2 3.4 10l1.4-1.4 2.8 2.8 7.6-7.6L16.6 5z"/></svg><span>Certification and documentation for lenders, equity release firms and buyers</span></li>
+        <li><svg viewBox="0 0 20 20" width="18" height="18"><path d="M7.6 14.2 3.4 10l1.4-1.4 2.8 2.8 7.6-7.6L16.6 5z"/></svg><span>Timbers cleaned back and inspected, not just stripped</span></li>
+        <li><svg viewBox="0 0 20 20" width="18" height="18"><path d="M7.6 14.2 3.4 10l1.4-1.4 2.8 2.8 7.6-7.6L16.6 5z"/></svg><span>Loft reinsulated afterwards &mdash; felt membrane, Rockwool or foil</span></li>
+        <li><svg viewBox="0 0 20 20" width="18" height="18"><path d="M7.6 14.2 3.4 10l1.4-1.4 2.8 2.8 7.6-7.6L16.6 5z"/></svg><span>Property protected throughout and all waste taken away</span></li>
+      </ul>
+      <div class="nicei">&#9873; We work to your completion date, not ours</div>
+    </div>
+
+    <form class="form" id="quote" onsubmit="return route(event)">
+      <h3>Get a survey booked</h3>
+      <div class="fs">Tell us where you are in the process and we will tell you what happens next.</div>
+
+      <label for="job">What has happened?</label>
+      <select id="job">
+        <option value="">Choose one&hellip;</option>
+        <option value="refused">A lender has refused a mortgage</option>
+        <option value="equity">Equity release is being held up</option>
+        <option value="selling">I am selling and the survey flagged it</option>
+        <option value="buying">I am buying a house that has foam</option>
+        <option value="worried">No problem yet &mdash; I want it out</option>
+        <option value="reinsulate">I need the loft reinsulated</option>
+      </select>
+
+      <label for="type">What kind of foam, if you know?</label>
+      <select id="type">
+        <option value="">Choose one&hellip;</option>
+        <option value="closed">Closed cell &mdash; hard and rigid</option>
+        <option value="open">Open cell &mdash; soft and spongy</option>
+        <option>Not sure</option>
+      </select>
+
+      <label>Is there a deadline?</label>
+      <div class="chk">
+        <label><input type="radio" name="u" checked> No date yet</label>
+        <label><input type="radio" name="u"> Within a month</label>
+        <label><input type="radio" name="u"> Completion booked</label>
+      </div>
+
+      <label for="town">Where is the property?</label>
+      <input id="town" placeholder="Chelmsford, Bromley, Croydon&hellip;">
+
+      <label for="ph">Best number to reach you</label>
+      <input id="ph" placeholder="07000 000000">
+
+      <button class="btn" type="submit">Request a survey</button>
+      <div class="hint">If you have a completion date booked, ring rather than fill this in.</div>
+
+      <div class="out" id="out"></div>
+    </form>
+  </div>
+</header>
+
+<div class="trust">
+  <div class="wrap trustin">
+    <div><b>Certification</b> issued</div>
+    <div><b>Timbers</b> cleaned &amp; inspected</div>
+    <div><b>Reinsulation</b> included</div>
+    <div><b>London</b> &amp; South East</div>
+    <div><b>Waste</b> removed</div>
+  </div>
+</div>
+
+<section id="mortgage">
+  <div class="wrap">
+    <div class="sh">
+      <div class="kick">Why this is happening</div>
+      <h2>It is not the insulation they object to. It is not being able to see the roof.</h2>
+      <p>Spray foam is applied directly to the underside of the roof. Once it is on, a surveyor cannot inspect the timbers beneath it &mdash; and a lender will not lend against a roof nobody can see.</p>
+    </div>
+    <div class="two">
+      <div class="box pri">
+        <div class="tagp">What usually triggers the call</div>
+        <h3>Four versions of the same problem</h3>
+        <ul>
+          <li><b>A mortgage or remortgage refused</b> after the valuation came back</li>
+          <li><b>Equity release held up</b> &mdash; often stricter than a standard mortgage</li>
+          <li><b>A sale falling through</b> when the buyer's survey flagged the loft</li>
+          <li><b>A purchase you want to go ahead with</b> on a house that already has foam</li>
+        </ul>
+      </div>
+      <div class="box">
+        <div class="tagp">What actually resolves it</div>
+        <h3>Removal, plus the paperwork</h3>
+        <ul>
+          <li>The foam removed back to clean, visible timber</li>
+          <li>The roof structure exposed so it can be inspected again</li>
+          <li>The loft reinsulated to a conventional specification</li>
+          <li><b>Documentation and certification</b> to hand to the lender, the surveyor or the buyer</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="process">
+  <div class="wrap">
+    <div class="sh">
+      <div class="kick">The process</div>
+      <h2>Six steps, and the last one is the one you are paying for</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><h3>1. Comprehensive survey</h3><p>We look at the foam, the timbers and the access, and tell you what the job actually involves.</p></div>
+      <div class="step"><h3>2. Property protection</h3><p>Sheeting, floor protection and containment before anything is touched.</p></div>
+      <div class="step"><h3>3. Precision removal</h3><p>Foam taken off without damaging the roof structure underneath it.</p></div>
+      <div class="step"><h3>4. Timber cleaning</h3><p>Residue cleaned back so the timbers are visible and inspectable.</p></div>
+      <div class="step"><h3>5. Waste management</h3><p>Everything bagged and removed. Your driveway does not become a tip.</p></div>
+      <div class="step"><h3>6. Certification &amp; sign-off</h3><p>The documentation your lender, equity release firm or buyer's surveyor is waiting for.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="reinstate">
+  <div class="wrap">
+    <div class="sh">
+      <div class="kick">Putting it back</div>
+      <h2>An empty loft is not the finished job</h2>
+      <p>Once the foam is out, the roof needs insulating properly. We do that part too, so you are not finding a second contractor mid-transaction.</p>
+    </div>
+    <div class="cards">
+      <div class="card"><div class="ctop" style="background-image:url('img/loft.jpg')"></div><div class="cbody">
+        <h3>Spray foam loft removal</h3>
+        <p>Open cell and closed cell, removed back to clean timber with the structure left sound.</p></div></div>
+      <div class="card"><div class="ctop" style="background-image:url('img/g1.jpg')"></div><div class="cbody">
+        <h3>Underlay felt membrane</h3>
+        <p>Replacing the membrane the foam was covering or bonded to, so the roof breathes as designed.</p></div></div>
+      <div class="card"><div class="ctop" style="background-image:url('img/g2.jpg')"></div><div class="cbody">
+        <h3>Rockwool insulation</h3>
+        <p>Conventional mineral wool at joist level &mdash; the specification lenders and surveyors expect to see.</p></div></div>
+      <div class="card"><div class="ctop" style="background-image:url('img/g3.jpg')"></div><div class="cbody">
+        <h3>Therma Wrap foil insulation</h3>
+        <p>Multi-layer foil where headroom is tight or a slimmer build-up suits the roof better.</p></div></div>
+      <div class="card"><div class="ctop" style="background-image:url('img/timber.jpg')"></div><div class="cbody">
+        <h3>Timber cleaning &amp; inspection</h3>
+        <p>Residue removed so the rafters can actually be looked at &mdash; which is the entire point.</p></div></div>
+      <div class="card"><div class="ctop" style="background-image:url('img/g4.jpg')"></div><div class="cbody">
+        <h3>Certification &amp; documentation</h3>
+        <p>The written record of what was removed, what was cleaned and what was installed.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <div class="split">
+      <div class="pic" style="background-image:url('img/g5.jpg')"></div>
+      <div>
+        <div class="kick" style="font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--acc);font-weight:700;margin-bottom:10px">Working to a deadline</div>
+        <h2 style="font-size:clamp(25px,3.4vw,33px);margin-bottom:12px">If you have a completion date, say so on the first call.</h2>
+        <p style="color:var(--mut);font-size:16.5px;margin-bottom:14px">Most of our work sits inside
+        somebody else's timetable &mdash; a lender's, a solicitor's, a buyer's. We would rather know
+        about the date at the survey than find out about it afterwards.</p>
+        <p style="color:var(--mut);font-size:16.5px">Tell us the deadline and we will tell you honestly
+        whether we can meet it. If we cannot, we will say that too.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap">
+    <div class="sh">
+      <div class="kick">Our work</div>
+      <h2>Real lofts. Our own photographs.</h2>
+      <p>Every picture on this page is our own work on our own jobs. Nothing here is a stock image.</p>
+    </div>
+    <div class="gal">
+      <div style="background-image:url('img/hero.jpg')"></div>
+      <div style="background-image:url('img/removal.jpg')"></div>
+      <div style="background-image:url('img/loft.jpg')"></div>
+      <div style="background-image:url('img/timber.jpg')"></div>
+      <div style="background-image:url('img/g1.jpg')"></div>
+      <div style="background-image:url('img/g3.jpg')"></div>
+      <div style="background-image:url('img/g5.jpg')"></div>
+      <div style="background-image:url('img/g6.jpg')"></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="sh">
+      <div class="kick">Straight answers</div>
+      <h2>What homeowners ask us</h2>
+    </div>
+    <div class="faqs">
+      <details class="faq"><summary>Why do I need to remove my spray foam insulation?</summary><p>In most cases because a lender, surveyor or equity release provider has raised it. Foam applied to the underside of the roof stops anyone inspecting the timbers, and lenders are generally unwilling to lend against a roof structure that cannot be seen. Removing it makes the roof inspectable again.</p></details>
+      <details class="faq"><summary>Will my roof need replacing afterwards?</summary><p>Usually not. The point of removing it carefully is that the roof structure is left sound. We survey first, and if we find a problem beneath the foam we will tell you before we start rather than after.</p></details>
+      <details class="faq"><summary>How long does it take?</summary><p>A typical loft is a matter of days rather than weeks, depending on the type of foam, how much there is and the access. We give you a realistic window at survey stage, and if you have a completion date we will tell you plainly whether it is achievable.</p></details>
+      <details class="faq"><summary>Is it messy?</summary><p>It is a dusty job, which is why property protection is its own step in our process. Sheeting and containment go in before anything is removed, and all waste leaves with us.</p></details>
+      <details class="faq"><summary>Do I get a certificate at the end?</summary><p>Yes. Comprehensive documentation and certification is issued on completion &mdash; that is the part your lender, equity release firm or buyer's surveyor is actually waiting for, and for most customers it is the reason for the whole job.</p></details>
+      <details class="faq"><summary>Do you reinsulate the loft afterwards?</summary><p>Yes. Felt membrane, Rockwool or Therma Wrap foil depending on the roof. It means you are not looking for a second contractor in the middle of a transaction.</p></details>
+    </div>
+  </div>
+</section>
+
+<section id="areas">
+  <div class="wrap">
+    <div class="sh">
+      <div class="kick">Where we work</div>
+      <h2>London, Essex and the surrounding counties</h2>
+    </div>
+    <div class="areas">
+      <span>Central London</span><span>South East London</span><span>Bromley</span><span>Croydon</span>
+      <span>Lewisham</span><span>Greenwich</span><span>Dartford</span><span>Bexley</span>
+      <span>Chelmsford</span><span>Brentwood</span><span>Romford</span><span>Basildon</span>
+      <span>Essex</span><span>Kent</span><span>Surrey</span><span>Hertfordshire</span>
+    </div>
+  </div>
+</section>
+
+<section class="cta2">
+  <div class="wrap">
+    <h2>Get it surveyed before the lender asks again.</h2>
+    <p>Spray foam removal, timber cleaning, reinsulation and the certification at the end.</p>
+    <a class="call" href="tel:+447852547067">&#9742; Call 07852 547067</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <h4>Advanced Foam Removal</h4>
+        <a href="tel:+447852547067">07852 547067</a>
+        <a href="#top">London &amp; the South East</a>
+        <a href="#top">Registered in England</a>
+      </div>
+      <div>
+        <h4>Removal</h4>
+        <a href="#reinstate">Spray foam loft removal</a>
+        <a href="#reinstate">Timber cleaning</a>
+        <a href="#process">Waste management</a>
+        <a href="#process">Certification</a>
+      </div>
+      <div>
+        <h4>Reinsulation</h4>
+        <a href="#reinstate">Underlay felt membrane</a>
+        <a href="#reinstate">Rockwool insulation</a>
+        <a href="#reinstate">Therma Wrap foil</a>
+      </div>
+      <div>
+        <h4>Situations</h4>
+        <a href="#mortgage">Mortgage refused</a>
+        <a href="#mortgage">Equity release</a>
+        <a href="#mortgage">Selling a property</a>
+        <a href="#mortgage">Buying a property</a>
+      </div>
+    </div>
+    <div class="fnote">
+      <b>Concept demonstration &mdash; not a live website.</b> This page was produced by AG1 Consulting
+      to show Advanced Foam Removal Ltd one way their website could work. No form on this page submits
+      anywhere and the instant response shown is a demonstration of routing only &mdash; it is not a
+      quotation, an estimate, a survey or an offer. The company name, telephone number, the service
+      list, the six-step process, the reinsulation options and all photography are taken from Advanced
+      Foam Removal's own published website and remain their property. <b>The FAQ answers, the service
+      descriptions, the situations listed and the areas-served list are illustrative wording written by
+      AG1 to demonstrate the layout &mdash; none of it has been confirmed with Advanced Foam Removal,
+      and none of it should be read as a commitment the business has made.</b> The areas listed are
+      illustrative of a London and South East coverage area and are <b>not a statement of where this
+      company does or does not work.</b> <b>Nothing on this page is mortgage, financial, legal,
+      structural or surveying advice.</b> Statements about lender and surveyor attitudes to spray foam
+      describe general market conditions only; <b>lending decisions are made by individual lenders on
+      individual properties, no outcome is promised or implied, and no claim is made that removing
+      insulation will result in any mortgage, remortgage, equity release or sale being approved.</b>
+      References to certification describe documentation recording the work carried out; <b>no
+      accreditation, warranty, guarantee, professional qualification or third-party approval is claimed
+      anywhere on this page.</b> <b>No prices, ratings, review counts or customer testimonials appear
+      anywhere on this page.</b>
+    </div>
+  </div>
+</footer>
+
+<script>
+function route(e){
+  e.preventDefault();
+  var j=document.getElementById('job').value,
+      t2=document.getElementById('type').value,
+      o=document.getElementById('out'),
+      t=(document.getElementById('town').value||'your area').trim().replace(/[<>]/g,'');
+  var m={
+    refused:['o-urg','Mortgage refused &mdash; ring us','This is the most common reason people call. Bring the surveyor&rsquo;s wording if you have it; it usually tells us exactly what the lender wants to see.'],
+    equity:['o-urg','Equity release enquiry','Equity release providers are often stricter than standard lenders. Tell us who the provider is and what they have asked for.'],
+    selling:['o-hi','Survey flagged the loft','If there is a completion date, say so on the first call so we can tell you honestly whether it is achievable.'],
+    buying:['o-hi','Buying a property with foam','Worth surveying before you exchange. We will tell you what is involved and what it means for your own lender.'],
+    worried:['o-md','No deadline &mdash; good','The easiest version of this job is the one booked before a lender forces it. No rush, no premium.'],
+    reinsulate:['o-md','Reinsulation enquiry','Felt membrane, Rockwool or foil depending on the roof. Tell us what is up there now.']
+  };
+  var r=m[j]||['o-lo','Enquiry received','Tell us where you are in the process when we call and we will come prepared.'];
+  var extra='';
+  if(t2==='closed') extra=' <span style="display:block;margin-top:8px">Closed cell is the harder of the two to remove and the one lenders object to most often. It is very much doable &mdash; it just needs surveying properly first.</span>';
+  else if(t2==='open') extra=' <span style="display:block;margin-top:8px">Open cell is generally the more straightforward removal. We will still survey before quoting.</span>';
+  o.className='out show '+r[0];
+  o.innerHTML='<b>'+r[1]+'</b>'+r[2]+extra+'<span style="display:block;margin-top:8px;opacity:.85">Covering '+t+' &mdash; 07852 547067</span>';
+  o.scrollIntoView({behavior:'smooth',block:'nearest'});
+  return false;
+}
+</script>
+
+<a class="callbar" href="tel:+447852547067">&#9742; Call 07852 547067</a>
